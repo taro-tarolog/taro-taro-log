@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Карта дня онлайн — бесплатный расклад на одну карту | Мир Таро</title>
+<meta name="description" content="Вытяните карту дня онлайн бесплатно. Одна карта Таро — простой совет на день. Случайный выбор из 78 карт с подробной интерпретацией.">
+<meta name="keywords" content="карта дня, карта дня онлайн, таро карта дня, расклад на одну карту, гадание на день">
+<link rel="canonical" href="https://example.com/card-of-the-day/">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a href="/" class="logo">Мир <span>Таро</span></a>
+    <nav>
+      <ul>
+        <li><a href="/cards/">Карты</a></li>
+        <li><a href="/spreads/">Расклады</a></li>
+        <li><a href="/card-of-the-day/">Карта дня</a></li>
+        <li><a href="/blog/">Статьи</a></li>
+        <li><a href="/about/">Обо мне</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" style="padding: 4rem 0 2rem;">
+  <div class="container">
+    <h1><em>Карта</em> дня</h1>
+    <p class="lead">Сосредоточьтесь на одном вопросе, который вас сейчас занимает. Сделайте вдох. Нажмите на карту.</p>
+  </div>
+</section>
+
+<section style="padding-top: 1rem;">
+  <div class="container">
+
+    <div class="tarot-card-display">
+      <div class="tarot-card-visual" id="tarotCard" onclick="flipCard()">
+        <div class="tarot-card-face tarot-card-back"></div>
+        <div class="tarot-card-face tarot-card-front">
+          <div class="card-num" id="cardNum">— —</div>
+          <div class="card-symbol" id="cardSymbol">✦</div>
+          <div class="card-name" id="cardName">Ваша карта</div>
+        </div>
+      </div>
+
+      <button class="btn" onclick="drawAgain()" id="drawBtn" style="margin-top: 1rem;">Вытянуть карту</button>
+    </div>
+
+    <div class="card-meaning-box" id="meaningBox">
+      <h3 id="meaningTitle">Значение карты</h3>
+      <p id="meaningText"></p>
+      <p style="margin-top: 1.5rem;"><a id="readMoreLink" href="#">Подробное значение карты →</a></p>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <div class="container" style="max-width: 720px;">
+    <h2 class="section-title">Как работать с картой дня</h2>
+    <p>«Карта дня» — это не предсказание. Это короткая практика рефлексии: вы получаете символ, который помогает посмотреть на день под определённым углом.</p>
+    <p>Утром вытяните карту и прочитайте её значение. В течение дня замечайте моменты, которые с ней перекликаются. Вечером перечитайте — часто открывается второй смысл.</p>
+    <p>Регулярная практика «одна карта в день» — самый быстрый способ выучить колоду и начать чувствовать её интуитивно.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>©️ 2026 Мир Таро. Контент создан в развлекательных и образовательных целях.</p>
+  </div>
+</footer>
+
+<script>
+const deck = [
+  { num: "0", name: "Шут", symbol: "✦", slug: "shut",
+    meaning: "Начало нового пути. Сегодня — день для смелых шагов и неочевидных решений. Не бойтесь выглядеть наивно: именно эта открытость сегодня работает на вас." },
+  { num: "I", name: "Маг", symbol: "✶", slug: "mag",
+    meaning: "У вас есть всё, что нужно. День, когда стоит начать действовать, а не готовиться. Воля и навык сходятся в одной точке — используйте это." },
+  { num: "II", name: "Верховная Жрица", symbol: "☽", slug: "zhritsa",
+    meaning: "День тишины и наблюдения. Не торопитесь с решениями — ответ придёт изнутри, если вы перестанете шуметь. Доверьтесь интуиции." },
+  { num: "III", name: "Императрица", symbol: "✿", slug: "imperatritsa",
+    meaning: "Изобилие, забота, творчество. Сегодня стоит уделить внимание тому, что приносит чувственную радость: еде, природе, телу, близким." },
+  { num: "IV", name: "Император", symbol: "♔", slug: "imperator",
+    meaning: "Структура и контроль. День для наведения порядка — в делах, документах, планах. То, что выстроите сегодня, прослужит долго." },
+  { num: "V", name: "Иерофант", symbol: "✟", slug: "ierofant",
+    meaning: "Учитель, традиция, проверенный путь. Сегодня имеет смысл следовать правилам, а не нарушать их. Или — обратиться за советом к старшему." },
+  { num: "VI", name: "Влюблённые", symbol: "♡", slug: "vlyublyonnye",
+    meaning: "День выбора, связанного с сердцем. Не обязательно романтического — речь о выборе между путями, один из которых вам по-настоящему дорог." },
+  { num: "VII", name: "Колесница", symbol: "➳", slug: "kolesnitsa",
+    meaning: "Движение и победа через волю. Если есть две силы, тянущие в разные стороны — сегодня ваш день удержать их в одной упряжке." },
+  { num: "VIII", name: "Сила", symbol: "∞", slug: "sila",
+    meaning: "Внутренняя мощь без агрессии. Сегодня вы справитесь с тем, что казалось неподъёмным — но через мягкость, а не давление." },
+  { num: "IX", name: "Отшельник", symbol: "✦", slug: "otshelnik",
+    meaning: "День уединения и размышлений. Откажитесь от шума — социального, информационного. Ваш ответ внутри, и его слышно только в тишине." },
+];
+
+let currentCard = null;
+
+function flipCard() {
+  const cardEl = document.getElementById('tarotCard');
+  if (cardEl.classList.contains('flipped')) return;
+  drawCard();
+}
+
+function drawCard() {
+  const cardEl = document.getElementById('tarotCard');
+  const meaningBox = document.getElementById('meaningBox');
+  currentCard = deck[Math.floor(Math.random() * deck.length)];
+
+  document.getElementById('cardNum').textContent = currentCard.num;
+  document.getElementById('cardSymbol').textContent = currentCard.symbol;
+  document.getElementById('cardName').textContent = currentCard.name;
+
+  cardEl.classList.add('flipped');
+
+  setTimeout(() => {
+    document.getElementById('meaningTitle').textContent = currentCard.name + ' — ваш совет на день';
+    document.getElementById('meaningText').textContent = currentCard.meaning;
+    document.getElementById('readMoreLink').href = '/cards/' + currentCard.slug + '/';
+    meaningBox.classList.add('show');
+    document.getElementById('drawBtn').textContent = 'Вытянуть другую карту';
+  }, 800);
+}
+
+function drawAgain() {
+  const cardEl = document.getElementById('tarotCard');
+  cardEl.classList.remove('flipped');
+  document.getElementById('meaningBox').classList.remove('show');
+  setTimeout(drawCard, 600);
+}
+</script>
+
+</body>
+</html>
