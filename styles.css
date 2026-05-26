@@ -359,3 +359,39 @@ footer .legal { margin-top: 1rem; font-size: 0.8rem; }
 .hero h1, .hero .lead, .hero .btn { animation: fadeUp .8s ease both; }
 .hero .lead { animation-delay: .15s; }
 .hero .btn { animation-delay: .3s; }
+
+/* === Контактная полоска вверху === */
+.contact-bar {
+  background: linear-gradient(90deg, #1a1530, #2a2150);
+  border-bottom: 1px solid rgba(212,175,55,0.3);
+  padding: 0.6rem 1rem;
+  text-align: center;
+  font-size: 0.92rem;
+  color: #e8e0d0;
+}
+.contact-bar .cb-label { color: #d4af37; font-weight: 600; margin-right: 0.5rem; }
+.contact-bar a {
+  color: #e8e0d0;
+  text-decoration: none;
+  margin: 0 0.6rem;
+  white-space: nowrap;
+  border-bottom: 1px dotted rgba(212,175,55,0.5);
+}
+.contact-bar a:hover { color: #d4af37; }
+@media (max-width: 720px) {
+  .contact-bar { font-size: 0.8rem; line-height: 1.8; }
+  .contact-bar a { margin: 0 0.4rem; }
+}
+
+/* Блок контактов на странице */
+.contacts-list { list-style: none; padding: 0; margin: 2rem 0; }
+.contacts-list li {
+  padding: 1rem 1.2rem;
+  margin-bottom: 0.8rem;
+  background: rgba(212,175,55,0.06);
+  border: 1px solid rgba(212,175,55,0.2);
+  border-radius: 10px;
+  font-size: 1.1rem;
+}
+.contacts-list a { color: #d4af37; text-decoration: none; }
+.contacts-list a:hover { text-decoration: underline; }
