@@ -87,4 +87,7 @@
   <url><loc>https://taro-taro-log.vercel.app/cards/pentakli-rycar/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://taro-taro-log.vercel.app/cards/pentakli-koroleva/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://taro-taro-log.vercel.app/cards/pentakli-korol/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <url><loc>https://taro-taro-log.vercel.app/blog/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://taro-taro-log.vercel.app/blog/kak-gadat-na-taro/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>
