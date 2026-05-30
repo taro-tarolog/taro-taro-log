@@ -90,4 +90,6 @@
 
   <url><loc>https://taro-taro-log.vercel.app/blog/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taro-taro-log.vercel.app/blog/kak-gadat-na-taro/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-</urlset>
+  <url><loc>https://taro-taro-log.vercel.app/blog/kak-zadavat-vopros-taro/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://taro-taro-log.vercel.app/blog/rasklad-na-lyubov/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  </urlset>
