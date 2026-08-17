@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+a<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://taro-taro-log.vercel.app/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
   <url><loc>https://taro-taro-log.vercel.app/cards/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
@@ -28,6 +28,7 @@
   <url><loc>https://taro-taro-log.vercel.app/blog/rasklad-na-rabotu/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taro-taro-log.vercel.app/blog/rasklad-na-dengi/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taro-taro-log.vercel.app/blog/rasklad-na-budushchee/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://taro-taro-log.vercel.app/blog/rasklad-na-nedelyu/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taro-taro-log.vercel.app/blog/rasklad-da-net/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taro-taro-log.vercel.app/blog/keltskiy-krest/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taro-taro-log.vercel.app/blog/gadanie-na-otnosheniya-raznye/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
