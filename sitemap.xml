@@ -13,13 +13,14 @@
   <url><loc>https://taro-taro-log.vercel.app/blog/skolko-stoit-tarolog/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taro-taro-log.vercel.app/blog/taro-garantii/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taro-taro-log.vercel.app/blog/voprosy-tarologu/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://taro-taro-log.vercel.app/blog/oshibki-novichka/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taro-taro-log.vercel.app/blog/karta-dnya-praktika/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taro-taro-log.vercel.app/blog/kak-zadavat-vopros-taro/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taro-taro-log.vercel.app/blog/mozhno-li-gadat-na-sebya/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taro-taro-log.vercel.app/blog/kak-sochetat-karty/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taro-taro-log.vercel.app/blog/taro-i-intuiciya/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://taro-taro-log.vercel.app/blog/dnevnik-taro/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taro-taro-log.vercel.app/blog/kak-uhazhivat-za-kolodoy/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://taro-taro-log.vercel.app/blog/oshibki-novichka/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taro-taro-log.vercel.app/blog/perevyornutye-karty-taro/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taro-taro-log.vercel.app/blog/plokhie-karty-otnosheniya/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taro-taro-log.vercel.app/blog/karty-lyubvi/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -48,20 +49,21 @@
   <url><loc>https://taro-taro-log.vercel.app/blog/rasklad-na-nedelyu/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taro-taro-log.vercel.app/blog/rasklad-da-net/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taro-taro-log.vercel.app/blog/keltskiy-krest/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://taro-taro-log.vercel.app/blog/gadanie-na-otnosheniya-raznye/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://taro-taro-log.vercel.app/blog/gadanie-na-chuvstva/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://taro-taro-log.vercel.app/blog/vernyotsya-li-on/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://taro-taro-log.vercel.app/blog/chto-delat-posle-rasstavaniya/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://taro-taro-log.vercel.app/blog/sovmestimost-po-stihiyam/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://taro-taro-log.vercel.app/blog/rasklad-na-primirenie/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://taro-taro-log.vercel.app/blog/rasklad-na-vozvrashchenie/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taro-taro-log.vercel.app/blog/rasklad-na-lyubov/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://taro-taro-log.vercel.app/blog/sovmestimost-taro/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://taro-taro-log.vercel.app/blog/moya-rol-v-pare/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taro-taro-log.vercel.app/blog/proshloe-nastoyashchee-budushchee-otnosheniya/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taro-taro-log.vercel.app/blog/rasklad-na-novye-otnosheniya/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taro-taro-log.vercel.app/blog/rasklad-na-brak/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://taro-taro-log.vercel.app/blog/gadanie-na-otnosheniya-raznye/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://taro-taro-log.vercel.app/blog/gadanie-na-chuvstva/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://taro-taro-log.vercel.app/blog/vernyotsya-li-on/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://taro-taro-log.vercel.app/blog/sovmestimost-po-stihiyam/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://taro-taro-log.vercel.app/blog/rasklad-na-primirenie/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://taro-taro-log.vercel.app/blog/rasklad-na-vozvrashchenie/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://taro-taro-log.vercel.app/blog/sovmestimost-taro/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://taro-taro-log.vercel.app/blog/moya-rol-v-pare/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://taro-taro-log.vercel.app/blog/vlyublyonnost-v-nesvobodnogo/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taro-taro-log.vercel.app/blog/rasklad-na-poisk-lyubvi/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://taro-taro-log.vercel.app/blog/chto-delat-posle-rasstavaniya/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taro-taro-log.vercel.app/cards/shut/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://taro-taro-log.vercel.app/cards/mag/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://taro-taro-log.vercel.app/cards/zhritsa/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
