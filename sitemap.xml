@@ -136,6 +136,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://taro-taro-log.vercel.app/blog/kak-zapomnit-znacheniya-kart/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://taro-taro-log.vercel.app/blog/karty-lyubvi/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
